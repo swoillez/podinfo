@@ -1,0 +1,5 @@
+name: podinfo-demo
+replicas: 1
+image: <+artifacts.primary.image>
+uiColor: "#34577c"
+uiMessage: "Deployed by Harness CD"
